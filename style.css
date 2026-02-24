@@ -1,0 +1,16 @@
+:root {
+    --bg-main: #F8FAFC;
+    --text-primary: #002C5C;
+    --white-bg: #FFFFFF;
+    --green-color: #10B981;
+    --red-color: #EF4444;
+    --border-light: #FFFFFF;
+}
+
+body {
+    font-family: "Geist", sans-serif;
+    background-color: var(--bg-main);
+    margin: 0;
+    color: var(--text-primary);
+}
+
