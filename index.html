@@ -8,6 +8,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="app-wrapper">
+        <h1 class="main-title">Job Application Tracker</h1>
+
+        <div class="stats-grid">
+            <div class="metric-card">
+                <p>Total</p>
+                <h2 id="total-jobs-count">8</h2>
+            </div>
+            <div class="metric-card">
+                <p>Interview</p>
+                <h2 id="interview-jobs-count" class="color-success">0</h2>
+            </div>
+            <div class="metric-card">
+                <p>Rejected</p>
+                <h2 id="rejected-jobs-count" class="color-error">0</h2>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <div>
+                <h2 class="section-title">Available Jobs</h2>
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-tab="all">All</button>
+                    <button class="filter-btn" data-tab="interview">Interview</button>
+                    <button class="filter-btn" data-tab="rejected">Rejected</button>
+                </div>
+            </div>
+            <span id="results-counter">8 jobs</span>
+        </div>
+
+        <div id="no-data-view" class="is-hidden">
+            <img src="jobs.png" alt="No jobs">
+            <h3>No jobs available</h3>
+            <p>Check back soon for new job opportunities</p>
+        </div>
 
 </body>
 </html>
