@@ -87,11 +87,6 @@ body {
      display: none; 
 }
 
-
-
-
-
-
 .remove-btn {
     position: absolute;
     top: 15px;
@@ -176,8 +171,6 @@ body {
 .is-hidden {
      display: none !important; 
     }
-
-
 
 
 /* Responsive */
